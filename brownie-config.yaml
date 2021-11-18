@@ -1,0 +1,9 @@
+dotenv: .env
+networks:
+  default: development
+  kovan:
+    verify: True
+  bsc-test:
+    verify: True
+wallets:
+  from_key: ${PRIVATE_KEY}
